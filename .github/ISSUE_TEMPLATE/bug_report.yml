@@ -1,0 +1,48 @@
+name: 故障反馈
+description: 报告安装、采集、导出或保存中遇到的问题。
+title: "[问题] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请描述实际遇到的问题，方便我们复现。Issue 内容会公开显示，请遮挡个人信息，不要填写授权码、Cookie 或飞书凭据。购买和授权问题请联系 support@zhangxun.org。
+  - type: input
+    id: version
+    attributes:
+      label: 插件版本
+      description: 在浏览器扩展管理页查看红研版本。
+      placeholder: 例如 26.10.11.5
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 浏览器与系统
+      placeholder: 例如 Chrome 版本号、macOS 或 Windows 版本
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 操作步骤
+      placeholder: |
+        1. 打开哪个页面
+        2. 点击哪个入口
+        3. 在哪一步出现问题
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果
+      description: 想完成什么？实际发生了什么？
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 截图或补充信息
+      description: 可粘贴已遮挡个人信息的截图或错误信息。
+    validations:
+      required: false

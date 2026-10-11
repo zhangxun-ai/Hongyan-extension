@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用教程
+    url: https://extensions.zhangxun.org/hongyan/guide/
+    about: 先查看安装、采集、保存与激活说明。
+  - name: 获取插件与授权
+    url: https://extensions.zhangxun.org/hongyan/#wechat
+    about: 购买、授权或需要私下处理的问题，请入群联系作者。
