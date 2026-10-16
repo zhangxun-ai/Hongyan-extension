@@ -4,15 +4,13 @@
 
 ## 1. 获取并安装
 
-从[官网](https://extensions.zhangxun.org/downloads/hongyan-free.zip)或 [GitHub Releases](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.16.12) 下载免费版 ZIP。解压后，在 Chrome 的 `chrome://extensions` 开启开发者模式，点击“加载已解压的扩展程序”，选择包含 `manifest.json` 的文件夹。
-
-免费版商店更新尚未提交，商店安装前请核对实际版本。[完整安装与更新说明](downloads.md)
+公开版仅提供 CRX 安装包。红研 26.10.16.12 已提交商店审核，正式发布并验证后开放下载；当前请查看[下载状态与安装说明](downloads.md)。开发源码必须获得授权并加入作者的 GitHub 私有仓库获取。
 
 安装后将红研固定到浏览器工具栏，刷新小红书页面，让页面使用新版本。
 
 ## 2. 免费使用
 
-当前插件无需激活，没有试用倒计时。原有资料和设置不因同 ID 的免费升级被清除。使用自己的飞书表格仍需提供该表的授权码，这与插件收费授权无关。
+插件免费使用。
 
 视频转录是可选功能，需要自行配置第三方服务；第三方服务费用单独产生。
 
@@ -69,3 +67,9 @@
 ## 需要帮助
 
 故障请使用[问题反馈表单](https://github.com/zhangxun-ai/Hongyan-extension/issues/new/choose)。商业源码授权或需要私下处理的内容请联系 [support@zhangxun.org](mailto:support@zhangxun.org)，也可在官网入群联系作者。
+
+## 账号风险与反馈
+
+目前作者自测暂未遇到封控，但不保证没有风险。担心账号安全，可先用小号测试；如收到平台提醒或出现异常，请暂停使用并按平台提示处理。
+
+使用问题或建议，请通过 [GitHub Issues](https://github.com/zhangxun-ai/Hongyan-extension/issues/new/choose) 或 [support@zhangxun.org](mailto:support@zhangxun.org) 反馈。

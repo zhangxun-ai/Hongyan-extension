@@ -4,11 +4,11 @@
 
 <h1 align="center">红研 · 小红书选题与资料整理插件</h1>
 
-<p align="center">免费整理小红书图文、视频与评论，保存到本地、飞书或 Obsidian。</p>
+<p align="center">整理小红书图文、视频与评论，保存到本地、飞书或 Obsidian。</p>
 
 <p align="center">
   <a href="https://extensions.zhangxun.org/hongyan/">访问官网</a> ·
-  <a href="https://extensions.zhangxun.org/downloads/hongyan-free.zip">免费下载</a> ·
+  <a href="https://extensions.zhangxun.org/hongyan/guide/#download">获取插件</a> ·
   <a href="docs/guide.md">使用教程</a> ·
   <a href="https://github.com/zhangxun-ai/Hongyan-extension/releases">版本下载</a> ·
   <a href="https://github.com/zhangxun-ai/Hongyan-extension/issues/new/choose">问题反馈</a>
@@ -41,13 +41,13 @@
 
 ## 获取与安装
 
-当前免费版 **26.10.16.12**，无需激活、没有试用倒计时。
+当前版本 **26.10.16.12**，已提交审核。
 
-- [官网下载 ZIP](https://extensions.zhangxun.org/downloads/hongyan-free.zip)
-- [GitHub 下载与更新说明](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.16.12)
-- [Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)：免费版 26.10.16.12 已提交审核，尚未上架，请先使用 ZIP，并以商店实际显示的版本为准。
+- [官网下载说明](https://extensions.zhangxun.org/hongyan/guide/#download)
+- [GitHub 发布页](https://github.com/zhangxun-ai/Hongyan-extension/releases)
+- [Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)：新版审核中，正式发布后提供 CRX。
 
-ZIP 需要解压后在扩展管理页选择“加载已解压的扩展程序”。[查看安装与更新步骤 →](docs/downloads.md)
+公开提供 CRX 安装包，当前下载暂未开放。[查看安装与更新步骤 →](docs/downloads.md)
 
 ## 三步开始使用
 
@@ -57,11 +57,11 @@ ZIP 需要解压后在扩展管理页选择“加载已解压的扩展程序”�
 
 使用本地导出无需连接资料库。飞书使用自己的 Base 链接和授权码；Obsidian 选择本地知识库目录。[查看完整教程与常见问题 →](docs/guide.md)
 
-## 免费插件与商业源码授权
+## 使用与源码授权
 
-当前插件免费使用，无需购买激活码。视频转录为可选功能，需要自行配置第三方服务，相关服务费用由服务商单独收取。
+插件免费使用。视频转录为可选功能，需要自行配置第三方服务，相关服务费用由服务商单独收取。
 
-如果希望基于项目源码开发商业产品，可[联系作者咨询商业源码授权](https://extensions.zhangxun.org/hongyan/#wechat)。源码通过私有仓库提供，具体费用、交付范围与授权条款另行约定；免费使用插件不代表获得商业源码授权。本公开仓库提供产品文档与安装包。
+源码不公开。需[联系作者获得授权](https://extensions.zhangxun.org/hongyan/#wechat)，加入作者的 GitHub 私有仓库后获取。
 
 ## 使用范围
 
@@ -70,11 +70,15 @@ ZIP 需要解压后在扩展管理页选择“加载已解压的扩展程序”�
 - 评论采集是有限样本，结果会说明采集范围；视频下载需有可用媒体地址，转录需要配置服务并明确启用。
 - 关键词 HTML 词图打开时需要联网。
 
+## 账号风险
+
+目前作者自测暂未遇到封控，但不保证没有风险。担心账号安全，可先用小号测试；如收到平台提醒或出现异常，请暂停使用并按平台提示处理。
+
 ## 帮助与反馈
 
 - 使用教程：[安装、采集与保存](docs/guide.md)
 - 故障与建议：[提交 Issue](https://github.com/zhangxun-ai/Hongyan-extension/issues/new/choose)
-- 商业源码授权咨询：[官网入群](https://extensions.zhangxun.org/hongyan/#wechat) / [support@zhangxun.org](mailto:support@zhangxun.org)
+- 使用问题与源码咨询：[support@zhangxun.org](mailto:support@zhangxun.org) / [官网联系作者](https://extensions.zhangxun.org/hongyan/#wechat)
 - 产品信息：[官网](https://extensions.zhangxun.org/hongyan/) · [隐私说明](https://extensions.zhangxun.org/hongyan/privacy/) · [更新日志](https://extensions.zhangxun.org/hongyan/changelog/)
 
 本仓库用于产品介绍、使用说明、版本下载与问题反馈。
