@@ -45,7 +45,7 @@
 
 - [官网下载 ZIP](https://extensions.zhangxun.org/downloads/hongyan-free.zip)
 - [GitHub 下载与更新说明](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.16.12)
-- [Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)：免费版更新尚未提交，请先使用 ZIP，并以商店实际显示的版本为准。
+- [Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)：免费版 26.10.16.12 已提交审核，尚未上架，请先使用 ZIP，并以商店实际显示的版本为准。
 
 ZIP 需要解压后在扩展管理页选择“加载已解压的扩展程序”。[查看安装与更新步骤 →](docs/downloads.md)
 

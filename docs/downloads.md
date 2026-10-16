@@ -8,7 +8,7 @@
 
 - [官网下载 ZIP](https://extensions.zhangxun.org/downloads/hongyan-free.zip)
 - [GitHub Release](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.16.12)：在 Assets 下载 `hongyan-free-26.10.16.12.zip`。
-- [Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)：免费版更新尚未提交。商店旧版本可能仍有试用限制，请先使用上面的免费 ZIP。
+- [Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)：免费版 26.10.16.12 已提交审核，尚未上架。商店旧版本可能仍有试用限制，请先使用上面的免费 ZIP。
 
 GitHub 自动生成的 **Source code (zip)** 和 **Source code (tar.gz)** 只包含本介绍仓库的文档与图片，不是插件安装包。
 
