@@ -10,7 +10,9 @@
 - 安装包：填写下方 Assets 中实际上传的文件名。
 - 安装或更新：填写用户可执行的步骤；完成后刷新小红书页面。
 
-首次启用后自动开始连续 2 小时体验。永久授权获取方式见[官网](https://extensions.zhangxun.org/hongyan/#wechat)。
+插件免费使用，无需激活。可选第三方转录服务需自行配置并承担服务费用。商业源码授权咨询见[官网](https://extensions.zhangxun.org/hongyan/#wechat)。
+
+请分别注明 ZIP 与商店的实际发布状态。GitHub 自动生成的 Source code 压缩包不是插件安装包。
 
 ## 文件信息
 

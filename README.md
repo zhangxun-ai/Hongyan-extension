@@ -4,11 +4,11 @@
 
 <h1 align="center">红研 · 小红书选题与资料整理插件</h1>
 
-<p align="center">发现值得研究的笔记，把正文、图片与评论整理成自己的资料。</p>
+<p align="center">免费整理小红书图文、视频与评论，保存到本地、飞书或 Obsidian。</p>
 
 <p align="center">
   <a href="https://extensions.zhangxun.org/hongyan/">访问官网</a> ·
-  <a href="https://extensions.zhangxun.org/hongyan/#wechat">获取插件</a> ·
+  <a href="https://extensions.zhangxun.org/downloads/hongyan-free.zip">免费下载</a> ·
   <a href="docs/guide.md">使用教程</a> ·
   <a href="https://github.com/zhangxun-ai/Hongyan-extension/releases">版本下载</a> ·
   <a href="https://github.com/zhangxun-ai/Hongyan-extension/issues/new/choose">问题反馈</a>
@@ -25,7 +25,9 @@
 | **搜索赛道** | 整理搜索页的赛道分类，寻找更具体的选题方向。 |
 | **笔记采集** | 在首页、搜索页、博主主页和详情页采集正文、图片及互动数据。 |
 | **评论采集** | 采集并导出评论，也可为已保存的笔记补采评论。 |
-| **筛选与保存** | 按点赞数和评论数筛选，下载 CSV 或保存到自己的资料库。 |
+| **筛选与保存** | 按日期、图文/视频类型及互动条件筛选已加载内容，下载 CSV 或保存到自己的资料库。 |
+| **视频与逐字稿** | 下载可取得的视频，配置转录服务后获取逐字稿，导出 TXT、Markdown 和具有可用时间信息的 SRT。 |
+| **对标资料库** | 飞书模板包含笔记库、对标博主与博主分析；Obsidian 首次连接自动准备目录、模板和资料视图。 |
 
 ## 界面预览
 
@@ -39,9 +41,13 @@
 
 ## 获取与安装
 
-前往[官网联系区](https://extensions.zhangxun.org/hongyan/#wechat)，扫码入群，私信作者获取安装包及对应浏览器的安装说明。
+当前免费版 **26.10.16.12**，无需激活、没有试用倒计时。
 
-后续可公开下载的版本统一发布在本仓库的 [Releases](https://github.com/zhangxun-ai/Hongyan-extension/releases)，每个版本附更新记录、安装包和安装说明。下载方式见[版本下载说明](docs/downloads.md)。
+- [官网下载 ZIP](https://extensions.zhangxun.org/downloads/hongyan-free.zip)
+- [GitHub 下载与更新说明](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.16.12)
+- [Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)：免费版更新尚未提交，请先使用 ZIP，并以商店实际显示的版本为准。
+
+ZIP 需要解压后在扩展管理页选择“加载已解压的扩展程序”。[查看安装与更新步骤 →](docs/downloads.md)
 
 ## 三步开始使用
 
@@ -51,27 +57,24 @@
 
 使用本地导出无需连接资料库。飞书使用自己的 Base 链接和授权码；Obsidian 选择本地知识库目录。[查看完整教程与常见问题 →](docs/guide.md)
 
-## 免费体验与永久授权
+## 免费插件与商业源码授权
 
-| 方案 | 说明 |
-| --- | --- |
-| **免费体验** | 首次启用后自动开始连续 **2 小时**体验，关闭浏览器不会暂停计时。 |
-| **永久授权** | 首期价 **¥77**，后续售价可能随版本迭代调整。联系作者获取授权码，在插件内输入并激活。 |
+当前插件免费使用，无需购买激活码。视频转录为可选功能，需要自行配置第三方服务，相关服务费用由服务商单独收取。
 
-首次激活需要联网，成功后永久使用。体验到期后，已保存的资料保留。[获取插件与授权码 →](https://extensions.zhangxun.org/hongyan/#wechat)
+如果希望基于项目源码开发商业产品，可[联系作者咨询商业源码授权](https://extensions.zhangxun.org/hongyan/#wechat)。源码通过私有仓库提供，具体费用、交付范围与授权条款另行约定；免费使用插件不代表获得商业源码授权。本公开仓库提供产品文档与安装包。
 
 ## 使用范围
 
 - 首页榜单来自当前页面已加载的笔记，用于浏览和选题研究。
 - 同时启用点赞与评论筛选时，笔记需同时满足两项条件。
-- 评论采集是有限样本，结果会说明采集范围；视频笔记保存正文和资料，不自动下载视频文件或转写语音。
+- 评论采集是有限样本，结果会说明采集范围；视频下载需有可用媒体地址，转录需要配置服务并明确启用。
 - 关键词 HTML 词图打开时需要联网。
 
 ## 帮助与反馈
 
 - 使用教程：[安装、采集与保存](docs/guide.md)
 - 故障与建议：[提交 Issue](https://github.com/zhangxun-ai/Hongyan-extension/issues/new/choose)
-- 购买或授权问题：[官网入群](https://extensions.zhangxun.org/hongyan/#wechat) / [support@zhangxun.org](mailto:support@zhangxun.org)
+- 商业源码授权咨询：[官网入群](https://extensions.zhangxun.org/hongyan/#wechat) / [support@zhangxun.org](mailto:support@zhangxun.org)
 - 产品信息：[官网](https://extensions.zhangxun.org/hongyan/) · [隐私说明](https://extensions.zhangxun.org/hongyan/privacy/) · [更新日志](https://extensions.zhangxun.org/hongyan/changelog/)
 
 本仓库用于产品介绍、使用说明、版本下载与问题反馈。
