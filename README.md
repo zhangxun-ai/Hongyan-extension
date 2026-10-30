@@ -17,7 +17,7 @@
 
 红研是一款桌面浏览器插件，适合寻找选题、研究对标账号和积累创作资料的内容创作者。在平台页面上筛选与选择作品，按需分析账号、获取逐字稿或解读内容，再导出或保存到自己的资料库。
 
-> **版本说明**：下文介绍新版 `26.10.23.1` 的功能。抖音适配、账号研究、内容解读与本地 Whisper 已在开发版实现，尚未公开发布；当前 [公开下载版本](docs/downloads.md) 为 `26.10.16.12`，不包含这些新功能。插件免费，源码另行授权。
+> **当前版本：26.10.29.6**，已在 Chrome 应用商店发布。[官网下载 CRX](https://extensions.zhangxun.org/downloads/hongyan-26.10.29.6.crx) · [GitHub 下载 CRX](https://github.com/zhangxun-ai/Hongyan-extension/releases/download/v26.10.29.6/hongyan-26.10.29.6.crx) · [历史版本](https://github.com/zhangxun-ai/Hongyan-extension/releases)。小红书基础采集与保存免费；抖音工作区、账号研究与作品对照、新 AI 解读和新本地转录任务需有效专业权益，暂未开放购买。
 
 ## 主要功能
 
@@ -35,21 +35,23 @@
 ## 界面预览
 
 <details>
-<summary>查看账号分析、作品对照、抖音工作区与内容解读</summary>
+<summary>查看采集、账号研究、作品对照、转录与保存位置</summary>
 
-下图使用当前开发版的实际界面与演示数据，不代表真实账号、采集结果或 AI 分析结论。点击可查看大图。
+下图使用产品实际界面的组合图与合成示例数据，不代表真实账号、采集结果或 AI 分析结论。点击可查看大图。
 
 | 账号分析 | 作品并排对照 |
 | :---: | :---: |
 | [![账号分析界面，演示数据](assets/account-analysis.png)](assets/account-analysis.png) | [![作品并排对照界面，演示数据](assets/work-comparison.png)](assets/work-comparison.png) |
-| 抖音筛选与采集 | 单篇内容解读 |
-| <a href="assets/douyin-workspace.png"><img src="assets/douyin-workspace.png" alt="抖音筛选与采集界面，演示数据" width="260"></a> | <a href="assets/content-interpretation.png"><img src="assets/content-interpretation.png" alt="单篇内容解读界面，演示数据" width="340"></a> |
+| 采集与保存条件 | 视频转录配置 |
+| [![采集与保存条件](assets/collection-26.10.29.6.png)](assets/collection-26.10.29.6.png) | [![视频转录配置](assets/transcripts-26.10.29.6.png)](assets/transcripts-26.10.29.6.png) |
+
+[![保存到本地、飞书或 Obsidian](assets/destinations-26.10.29.6.png)](assets/destinations-26.10.29.6.png)
 
 </details>
 
 ## 平台与功能范围
 
-新版支持小红书、抖音的首页、搜索页、博主主页与作品详情，按当前网站显示对应工作区。
+26.10.29.6 支持小红书、抖音的首页、搜索页、博主主页与作品详情，按当前网站显示对应工作区。
 
 | 功能 | 小红书 | 抖音 |
 | --- | --- | --- |
@@ -79,8 +81,9 @@
 
 ## 费用与数据
 
-- **插件免费**：无需激活，无试用期限。免费使用不包含商业源码授权。
-- **本地 Whisper**：需安装独立助手和模型，使用本机算力，不产生云端转录接口费用；不会自动切换到付费云端。Apple Silicon Mac 已有实机验证，其他桌面系统仍需分别验证。
+- **免费与专业权益**：小红书基础采集、筛选、下载及本地／飞书／Obsidian 保存无需登录，继续免费。抖音工作区、账号研究与作品对照、新 AI 解读及新本地转录任务需专业权益。月度 ¥9.9、年度 ¥39.9、永久 ¥69.9，功能相同；月度／年度到期手动续费，不自动扣款，当前暂未开放购买。已有永久授权继续有效，成功结果可继续读和导出。
+- **账号登录**：通过 Google 或邮箱验证码登录并恢复专业权益。Google 仅请求基础身份权限，不读取 Gmail 或 Google Drive；采集资料与 API Key 不随账号上传。
+- **本地 Whisper**：新任务需有效专业权益、独立助手和模型，使用本机算力，不产生云端转录接口费用；不会自动切换到付费云端。Apple Silicon Mac 已有实机验证，其他桌面系统仍需分别验证。
 - **云端转录与内容解读**：自行配置豆包／DeepSeek 服务，费用由对应服务商收取。新增云端转录需确认；内容解读仅在主动点击后调用，重新解读会再次请求模型。
 - **数据去向**：选择云端转录时，媒体材料提交给对应转录服务；内容解读会将所用正文、逐字稿、图片／关键帧及评论样本发送给 DeepSeek，具体取决于模型与可用材料。Pro 仅分析文字。
 - **密钥与结果**：服务密钥保存在本机扩展中，不写入网页或导出。已完成解读按作品与模型保留最新成功结果，重开直接复用；结果需主动复制或下载，不自动写入飞书／Obsidian。
@@ -90,7 +93,7 @@
 - 仅处理页面可访问、已取得的材料；评论不保证全量，关键词联想不等于搜索量，媒体下载与转录取决于可用地址、音轨和权限。
 - 作者自测暂未遇到封控，但不保证零风险。担心账号安全可先用小号测试；出现平台提醒或异常时暂停并按平台提示处理。
 - [使用教程](docs/guide.md) · [下载与更新](docs/downloads.md) · [提交问题](https://github.com/zhangxun-ai/Hongyan-extension/issues/new/choose)
-- [官网与联系作者](https://extensions.zhangxun.org/hongyan/) · [隐私说明](https://extensions.zhangxun.org/hongyan/privacy/) · [support@zhangxun.org](mailto:support@zhangxun.org)
+- [官网与联系作者](https://extensions.zhangxun.org/hongyan/) · [隐私说明](https://license.zhangxun.org/privacy/) · [support@zhangxun.org](mailto:support@zhangxun.org)
 
 反馈时附插件版本、浏览器版本和复现步骤，遮挡个人信息，勿提交 API Key、授权码或 Cookie。源码须[联系作者获得授权](https://extensions.zhangxun.org/hongyan/#wechat)，加入作者的 GitHub 私有仓库后获取。
 
