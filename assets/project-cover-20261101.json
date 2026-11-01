@@ -1,0 +1,14 @@
+{
+  "project": "zhangxun-ai/Hongyan-extension",
+  "createdOn": "2026-11-01",
+  "generator": "GPT Image via built-in imagegen",
+  "template": "Poster Layout System / poster-layout-system",
+  "purpose": "Abstract project branding cover, not a screenshot or proof of product output",
+  "prompt": "用途：GitHub README 顶部封面及个人网站 150px 宽项目卡片。Poster Layout System 单张最终成品横版海报，16:9。统一系列：近黑炭色背景，高级独立技术刊物气质，现代瑞士字体，暖象牙大标题，真实雕塑材质，克制的胶片颗粒与精密线条。主题物体只有一个强焦点，以左侧大标题和右侧主体形成平衡；主体和标题均在左右 8% 安全区域内，标题足够大，底部 15% 低细节区域留给网站叠加名称。大面积深色留白，不做软件界面，不做应用截图。文字逐字准确，不额外添加口号、数据、序号、徽章、水印、说明或小字。无浏览器/设备外壳，无伪造仪表盘，无卡片网格，无机器人、光球、星空，无第三方商标。不要边框和圆角。\n项目 Hongyan（红研）：帮助内容创作者寻找选题、研究参考账号、解读内容并保存创作资料的浏览器插件。主视觉是一枚暗红色精密光学圆环/放大镜，红色珐琅与暖白镜面材质，穿过两张立起的艺术纸页，镜片只放大纸张纹理和一个简单黑色方形，象征发现值得研究的内容。不要真实产品界面或账号资料。朱砂红、暖象牙和近黑，细腻的纸纹与镜片反光，干净且有张力。左侧主标题仅 \"Hongyan\"，下方允许稍小但清晰的中文品牌名 \"红研\"，两个字务必准确。不要鸿雁或红色鸟，不要小红书/抖音 logo，不要销量、热度、点赞数据或收费文案，不重新设计现有正式 Logo。",
+  "cover": {
+    "filename": "project-cover-20261101.webp",
+    "width": 1280,
+    "height": 720,
+    "sha256": "384563645273d80fe05cb2808d5eca2d86ce08d6fc7bed3f02b222f38bb584a8"
+  }
+}
