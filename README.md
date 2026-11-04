@@ -1,8 +1,8 @@
-<!-- project-cover:20261101:start -->
+<!-- project-cover:20261104:start -->
 <p align="center">
-  <img src="assets/project-cover-20261101.webp" alt="Hongyan / 红研 — AI-designed project cover" width="1280" />
+  <img src="assets/project-cover-20261104.png" alt="红研 Hongyan — 小红书 / 抖音内容研究插件：找选题、研究对标、沉淀素材" width="1280" />
 </p>
-<!-- project-cover:20261101:end -->
+<!-- project-cover:20261104:end -->
 
 <p align="center">
   <img src="assets/hongyan-logo.png" alt="红研 Hongyan" width="112" height="112">
