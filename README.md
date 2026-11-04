@@ -14,6 +14,7 @@
 <p align="center">把值得研究的图文、视频与评论，保存到本地、飞书或 Obsidian。</p>
 
 <p align="center">
+  <a href="https://extensions.zhangxun.org/hongyan/">官网直达</a> ·
   <a href="#主要功能">主要功能</a> ·
   <a href="#快速开始">快速开始</a> ·
   <a href="docs/downloads.md">下载与安装</a> ·
