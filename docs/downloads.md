@@ -2,12 +2,13 @@
 
 [← 返回产品介绍](../README.md) · [使用教程](guide.md)
 
-Chrome 应用商店当前公开版为 **26.11.7.1**，Microsoft Edge 扩展商店公开版为 **26.11.14.1**。Google 签名 CRX 和对应的校验文件保存在各版本的 GitHub Release，下载前请核对版本。
+Chrome 应用商店和 Microsoft Edge 扩展商店均已公开分发 **26.11.14.1**。Google 签名 CRX 和对应的校验文件保存在各版本的 GitHub Release，下载前请核对版本。
 
 ## 下载入口
 
 - **[Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)**：适用于 Chrome、Dia。
 - **[Microsoft Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/hongyan-%E2%80%94-content-researc/gbdlhnjghmnfhcmndcpjnhbgnfiojdfn?hl=zh-CN)**：在 Edge 中打开，点击「获取」和「添加扩展」。
+- **[GitHub 下载 26.11.14.1 CRX](https://github.com/zhangxun-ai/Hongyan-extension/releases/download/v26.11.14.1/hongyan-26.11.14.1.crx)**：[更新说明与 SHA-256](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.14.1)。
 - **[GitHub 下载 26.11.7.1 CRX](https://github.com/zhangxun-ai/Hongyan-extension/releases/download/v26.11.7.1/hongyan-26.11.7.1.crx)**：[更新说明与 SHA-256](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.7.1)。
 - **[官网下载历史版 26.10.29.6 CRX](https://extensions.zhangxun.org/downloads/hongyan-26.10.29.6.crx)**：Google 签名的历史离线包。
 - **[GitHub 下载 26.10.29.6 CRX](https://github.com/zhangxun-ai/Hongyan-extension/releases/download/v26.10.29.6/hongyan-26.10.29.6.crx)**：相同安装包的另一下载入口。
@@ -33,6 +34,7 @@ SHA-256：`2e3322cd5f3e3dac29f8ca6107b7f65b28a66284717664e137b39d1f89e739e1`
 
 | 版本 | 记录与安装包 |
 | --- | --- |
+| 26.11.14.1 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.14.1) |
 | 26.11.7.1 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.7.1) |
 | 26.11.3.1 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.3.1) |
 | 26.10.29.6 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.29.6) |
