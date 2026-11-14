@@ -2,37 +2,43 @@
 
 [← 返回产品介绍](../README.md) · [使用教程](guide.md)
 
-Chrome 应用商店当前公开版为 **26.11.7.1**。下方保留已发布的 26.10.29.6 Google 签名离线包。扩展 ID 为 `pjdbnlfpofkgcglogmdgplamgabooceo`。
+Chrome 应用商店当前公开版为 **26.11.7.1**，Microsoft Edge 扩展商店公开版为 **26.11.14.1**。Google 签名 CRX 和对应的校验文件保存在各版本的 GitHub Release，下载前请核对版本。
 
 ## 下载入口
 
-- **[Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)**：推荐安装方式，浏览器按商店规则更新。
-- **[官网下载 26.10.29.6 CRX](https://extensions.zhangxun.org/downloads/hongyan-26.10.29.6.crx)**：直接下载安装包。
+- **[Chrome 应用商店](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo)**：适用于 Chrome、Dia。
+- **[Microsoft Edge 扩展商店](https://microsoftedge.microsoft.com/addons/detail/hongyan-%E2%80%94-content-researc/gbdlhnjghmnfhcmndcpjnhbgnfiojdfn?hl=zh-CN)**：在 Edge 中打开，点击「获取」和「添加扩展」。
+- **[GitHub 下载 26.11.7.1 CRX](https://github.com/zhangxun-ai/Hongyan-extension/releases/download/v26.11.7.1/hongyan-26.11.7.1.crx)**：[更新说明与 SHA-256](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.7.1)。
+- **[官网下载历史版 26.10.29.6 CRX](https://extensions.zhangxun.org/downloads/hongyan-26.10.29.6.crx)**：Google 签名的历史离线包。
 - **[GitHub 下载 26.10.29.6 CRX](https://github.com/zhangxun-ai/Hongyan-extension/releases/download/v26.10.29.6/hongyan-26.10.29.6.crx)**：相同安装包的另一下载入口。
 - **[26.10.29.6 更新说明与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.29.6)**。
 
-文件：`hongyan-26.10.29.6.crx`，大小：4,696,331 字节。
+历史离线包：`hongyan-26.10.29.6.crx`，大小：4,696,331 字节。
 
 SHA-256：`2e3322cd5f3e3dac29f8ca6107b7f65b28a66284717664e137b39d1f89e739e1`
 
 ## 安装与更新
 
-1. 优先从 Chrome 应用商店按提示添加红研。
+1. 从浏览器对应的商店安装红研；浏览器会通过原商店自动更新。
 2. 使用 CRX 时，打开浏览器的扩展管理页，将文件拖入空白处并按提示确认，无需解压。浏览器禁止离线安装时改用商店，不关闭安全保护。
 3. 启用并固定到工具栏，刷新已打开的小红书／抖音页面，在扩展管理页核对当前安装版本。
 
-本版本 Google 签名包已在 macOS Chrome 完成同 ID 更新和正常重启，账号、保存条件与原资料库绑定保留；本地助手下载已完成回读。其他系统及浏览器仍以实际安装提示为准。
+26.10.29.6 的 Google 签名包已在 macOS Chrome 完成同 ID 更新和正常重启，账号、保存条件与原资料库绑定保留；本地助手下载已完成回读。其他系统及浏览器仍以实际安装提示为准。
 
-更新时保留原扩展与本机资料，不清除存储，不同时启用两份红研。不同扩展 ID 不保证自动继承配置。升级新增权限时按浏览器提示重新确认。
+更新时保留原扩展与本机资料，不清除存储，不同时启用两份红研。从 Edge 内已装的 Chrome 商店版切换到 Edge 商店版前，请备份需要保留的本地资料和配置，两者不会自动迁移。可用购买时的账号登录恢复已关联专业权益。升级新增权限时按浏览器提示重新确认。
 
 ## 历史版本
 
 历史版本按独立标签保存在 [全部 Releases](https://github.com/zhangxun-ai/Hongyan-extension/releases)，发布新版不会替换旧 Release 或附件。
 
-| 版本 | 功能范围 | 下载 |
-| --- | --- | --- |
-| **26.10.29.6** | 小红书与抖音、账号研究／作品对照、内容研读、AI 解读、本地／云端转录、账号与专业权益 | [历史 Release](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.29.6) |
-| **26.10.16.12** | 原免费小红书功能，不含新版专业入口 | [历史 CRX](https://github.com/zhangxun-ai/Hongyan-extension/releases/download/v26.10.16.12/hongyan-26.10.16.12.crx) |
+| 版本 | 记录与安装包 |
+| --- | --- |
+| 26.11.7.1 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.7.1) |
+| 26.11.3.1 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.3.1) |
+| 26.10.29.6 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.29.6) |
+| 26.10.16.12 | [更新说明、签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.16.12) |
+| 26.10.14.3 | [签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.14.3) |
+| 26.10.11.5 | [签名 CRX 与校验文件](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.10.11.5) |
 
 历史版本用于留存和查阅，不建议将新版直接降级：旧版不能安全处理新版资料结构，可能影响本地资料。需要恢复时先导出数据并联系支持。
 
