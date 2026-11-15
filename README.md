@@ -24,7 +24,7 @@
 
 红研是一款桌面浏览器插件，适合寻找选题、研究对标账号和积累创作资料的内容创作者。在平台页面上筛选与选择作品，按需分析账号、获取逐字稿或解读内容，再导出或保存到自己的资料库。
 
-> **Chrome 应用商店已发布 26.11.14.1。** [从 Chrome 应用商店安装](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo) · [本版更新说明](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.14.1) · [离线安装与历史版本](docs/downloads.md)。
+> **Chrome 应用商店已发布 26.11.15.2。** [从 Chrome 应用商店安装](https://chromewebstore.google.com/detail/pjdbnlfpofkgcglogmdgplamgabooceo) · [本版更新说明](https://github.com/zhangxun-ai/Hongyan-extension/releases/tag/v26.11.15.2) · [离线安装与历史版本](docs/downloads.md)。
 >
 > **Edge 扩展商店已发布 26.11.14.1。** [在 Edge 中安装](https://microsoftedge.microsoft.com/addons/detail/hongyan-%E2%80%94-content-researc/gbdlhnjghmnfhcmndcpjnhbgnfiojdfn?hl=zh-CN)。这一版新增 Obsidian 红研素材库，可单独保存和更新博主统计，批量保存作品时可按次选择逐字稿。[查看本版更新](https://extensions.zhangxun.org/hongyan/changelog/)。
 
